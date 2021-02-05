@@ -5,7 +5,6 @@ body {
     margin: 5% 10% 10% 10%;
 }
 h1 {
-    display: inline;
     font-family: 'Unica One', cursive;
     color: #7E7E7E;
     text-align: center;
@@ -16,6 +15,33 @@ h2 {
     text-align: center;
 }
 
+#nav-left {
+    display: inline; 
+    text-align: center;
+}
+#nav-right {
+    display: inline;
+    text-align: center;
+}
+li {
+    height: 30px;
+    display: inline-flex;
+    list-style-type: none;
+    padding-top: 10px;
+    border-left: 3px solid #7E7E7E;
+
+}
+#li-right {
+    border-right: 3px solid #7E7E7E;
+}
+p {
+    text-align: center;
+}
+
+@media (min-width: 655px) {
+    h1 {
+        display: inline;
+    }
 #nav-left {
     display: inline; 
     text-align: center;
@@ -38,12 +64,13 @@ li {
 #li-left, #li-right {
     border-right: 3px solid #7E7E7E;
 }
-p {
-    text-align: center;
 }
 
 @media (min-width: 1184px)
 {
+    h1 {
+        display: inline;
+    }
 li {
     height: 30px;
     display: inline-flex;
@@ -56,5 +83,3 @@ li {
 }
 
 }
-
- 
