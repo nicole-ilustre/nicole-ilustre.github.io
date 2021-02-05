@@ -5,6 +5,7 @@ body {
     margin: 5% 10% 10% 10%;
 }
 h1 {
+    font-size: 50px;
     font-family: 'Unica One', cursive;
     color: #7E7E7E;
     text-align: center;
@@ -13,6 +14,8 @@ h2 {
     font-family: 'Unica One', cursive;
     color: #7E7E7E;
     text-align: center;
+    border-top: 1px solid #7E7E7E;
+    padding-top: 20px;
 }
 
 #nav-left {
@@ -22,6 +25,7 @@ h2 {
 #nav-right {
     display: inline;
     text-align: center;
+    
 }
 li {
     height: 30px;
@@ -38,7 +42,7 @@ p {
     text-align: center;
 }
 
-@media (min-width: 655px) {
+@media (min-width: 788px) {
     h1 {
         display: inline;
     }
@@ -46,15 +50,17 @@ p {
     display: inline; 
     text-align: center;
     float: left;
+    margin-top: 10px;
 }
 #nav-right {
     display: inline;
     text-align: center;
     float: right;
+    margin-top: 10px;
 
 }
 li {
-    height: 30px;
+    height: 50px;
     display: inline-flex;
     list-style-type: none;
     padding-top: 10px;
@@ -66,7 +72,7 @@ li {
 }
 }
 
-@media (min-width: 1184px)
+@media (min-width: 1238px)
 {
     h1 {
         display: inline;
