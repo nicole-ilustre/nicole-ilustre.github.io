@@ -25,9 +25,6 @@ h3 {
     padding-top: 20px;
 }
 
-#margin-padding-border {
-    width: 20%;
-}
 
 button {
     font-family: 'Unica One', cursive;
@@ -60,6 +57,19 @@ li {
 p {
     text-align: center;
     font-family: 'Open Sans', sans-serif;
+}
+
+.blog-post {
+    width: 30%;
+    text-align: center;
+    vertical-align: top;
+    padding-top: 20px;
+
+}
+
+.blog-post-img {
+    height: 200px;
+    width: 30%;
 }
 
 @media (min-width: 788px) {
