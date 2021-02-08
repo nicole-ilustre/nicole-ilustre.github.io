@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Unica+One&display=swap');
+
+body {
+    text-align: center;
+    margin: 5% 10% 10% 10%;
+    color: #7E7E7E;
+
+}
+
+h1 {
+    
+    font-family: 'Unica One', cursive;
+}
+nav {
+   
+    margin-bottom: 50px;
+    border-bottom: 1px solid #7E7E7E;
+    padding-bottom: 30px;
+}
+
+.nav {
+    display: inline;
+    font-family: 'Open Sans', sans-serif;
+    padding-left: 50px;
+    padding-right: 50px;
+    border-left: 3px solid #7E7E7E;
+
+}
+#nav-left {
+    border-right: 3px solid #7E7E7E;
+}
+
+a {
+    color: inherit; 
+    text-decoration: inherit; 
+}
+div {
+    font-family: 'Open Sans', sans-serif;
+}
+
+#border-code {
+    margin-top: 15px;
+    margin-bottom: 40px;
+}
+
+#margin-padding-border-img {
+    width: 30%;
+    margin: 50px;
+}
+table {
+    margin-left: auto;
+    margin-right: auto;
+    border: 3px solid #7E7E7E;
+}
+
+td {
+    width: 50%;
+    text-align: center;
+    vertical-align: top;
+    padding-top: 5px;
+}
+
+h3 {
+    border: 3px solid #7E7E7E;
+    margin-top: 0;
+}
+
+ul {
+    font-family: 'Open Sans', sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    list-style-type: circle;
+}
+
+h2 {
+    font-family: 'Open Sans', sans-serif;
+}
+
+footer {
+    border-top: 1px solid #7E7E7E;
+    font-family: 'Unica One', cursive;
+    padding: 10px;
+}
