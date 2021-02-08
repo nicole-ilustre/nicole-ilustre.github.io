@@ -18,6 +18,25 @@ h2 {
     padding-top: 20px;
 }
 
+h3 {
+    font-family: 'Unica One', cursive;
+    color: #7E7E7E;
+    text-align: center;
+    padding-top: 20px;
+}
+
+#margin-padding-border {
+    width: 20%;
+}
+
+button {
+    font-family: 'Unica One', cursive;
+    padding: 5px;
+    background-color: #7E7E7E;
+    color: white;
+
+}
+
 #nav-left {
     display: inline; 
     text-align: center;
@@ -38,7 +57,7 @@ li {
 #li-right {
     border-right: 3px solid #7E7E7E;
 }
-.about-me {
+p {
     text-align: center;
     font-family: 'Open Sans', sans-serif;
 }
