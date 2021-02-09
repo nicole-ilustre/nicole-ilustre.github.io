@@ -33,16 +33,18 @@ button {
     color: white;
 
 }
-
-#nav-left {
+.nav-bar-sprint {
     font-family: 'Open Sans', sans-serif;
     text-transform: uppercase;
+}
+
+#nav-left {
+  
     display: inline; 
     text-align: center;
 }
 #nav-right {
-    font-family: 'Open Sans', sans-serif;
-    text-transform: uppercase;
+
     display: inline;
     text-align: center;
     
@@ -93,7 +95,10 @@ p {
     margin-top: 10px;
 
 }
+
 li {
+    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
     height: 50px;
     display: inline-flex;
     list-style-type: none;
@@ -113,6 +118,7 @@ li {
     }
 li {
     font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
     height: 30px;
     display: inline-flex;
     list-style-type: none;
