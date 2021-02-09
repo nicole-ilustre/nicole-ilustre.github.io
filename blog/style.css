@@ -12,13 +12,13 @@ h1 {
     font-family: 'Unica One', cursive;
 }
 nav {
-   
     margin-bottom: 50px;
     border-bottom: 1px solid #7E7E7E;
     padding-bottom: 30px;
 }
 
 .nav {
+    text-transform: uppercase;
     display: inline;
     font-family: 'Open Sans', sans-serif;
     padding-left: 50px;
@@ -29,13 +29,23 @@ nav {
 #nav-left {
     border-right: 3px solid #7E7E7E;
 }
+h2 {
+    font-family: 'Unica One', cursive;
+
+}
 
 a {
     color: inherit; 
     text-decoration: inherit; 
 }
-div {
+p {
     font-family: 'Open Sans', sans-serif;
+}
+
+h3 {
+    text-transform: uppercase;
+    font-family: 'Open Sans', sans-serif;
+
 }
 
 #border-code {
@@ -47,22 +57,34 @@ div {
     width: 30%;
     margin: 50px;
 }
-table {
+#margin-padding-table {
+    width: 50%;
     margin-left: auto;
     margin-right: auto;
-    border: 3px solid #7E7E7E;
+    border: 2px solid #7E7E7E;
+    border-collapse: collapse;
+}
+#strength-limitations-table {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid #7E7E7E;
+    border-collapse: collapse;
 }
 
 td {
-    width: 50%;
+    font-family: 'Open Sans', sans-serif;
+    width: 30%;
     text-align: center;
     vertical-align: top;
-    padding-top: 5px;
+    padding: 5px;
+    border: 2px solid #7E7E7E;
 }
 
-h3 {
-    border: 3px solid #7E7E7E;
-    margin-top: 0;
+th {
+    font-family: 'Unica One', cursive;
+    margin: 0px;
+    font-size: 20px;
 }
 
 ul {
@@ -73,12 +95,25 @@ ul {
     list-style-type: circle;
 }
 
-h2 {
-    font-family: 'Open Sans', sans-serif;
-}
-
 footer {
     border-top: 1px solid #7E7E7E;
     font-family: 'Unica One', cursive;
     padding: 10px;
 }
+
+.diary {
+    font-family: 'Open Sans', sans-serif;
+    text-align: left;
+}
+
+#shrug-emoji {
+    width: 20px;
+}
+a:hover {
+    font-weight: bold;
+}
+
+div {
+    border-bottom: 1px solid #7E7E7E;
+}
+

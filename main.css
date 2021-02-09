@@ -35,10 +35,14 @@ button {
 }
 
 #nav-left {
+    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
     display: inline; 
     text-align: center;
 }
 #nav-right {
+    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
     display: inline;
     text-align: center;
     
@@ -72,7 +76,7 @@ p {
     width: 30%;
 }
 
-@media (min-width: 788px) {
+@media (min-width: 975px) {
     h1 {
         display: inline;
     }
@@ -102,7 +106,7 @@ li {
 }
 }
 
-@media (min-width: 1238px)
+@media (min-width: 1425px)
 {
     h1 {
         display: inline;
