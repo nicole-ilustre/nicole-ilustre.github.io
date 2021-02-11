@@ -93,7 +93,7 @@ p {
     width: 30%;
 }
 
-@media (min-width: 975px) {
+@media (min-width: 1000px) {
     h1 {
         display: inline;
     }
@@ -126,7 +126,7 @@ li {
 }
 }
 
-@media (min-width: 1425px)
+@media (min-width: 1450px)
 {
     h1 {
         display: inline;
