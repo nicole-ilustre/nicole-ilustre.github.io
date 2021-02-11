@@ -56,7 +56,7 @@ h3 {
     width: 30%;
     margin: 50px;
 }
-#margin-padding-table {
+#margin-padding-table, #eq-vs-iq  {
     width: 50%;
     margin-left: auto;
     margin-right: auto;
@@ -69,6 +69,19 @@ h3 {
     margin-right: auto;
     border: 2px solid #7E7E7E;
     border-collapse: collapse;
+}
+#eq-effects {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+ 
+
+}
+#eq-effects td{
+    border: none;
+    text-align: left;
 }
 
 td {
@@ -84,6 +97,11 @@ th {
     font-family: 'Unica One', cursive;
     margin: 0px;
     font-size: 20px;
+}
+
+#attributes {
+    width: 50%;
+    text-align: left;
 }
 
 ul {
@@ -118,3 +136,7 @@ div {
     padding-top: 20px;
 }
 
+#emotional-intelligence-header {
+    width: 30%;
+    height: 300px;
+} */
