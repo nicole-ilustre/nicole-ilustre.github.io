@@ -49,6 +49,19 @@ button {
     text-align: center;
     
 }
+.long-nav {
+    padding-left: 20px;
+    padding-right: 20px;
+
+} 
+#ordered-list {
+    font-family: 'Open Sans', sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+    list-style-type: decimal;
+    text-align: left;
+    width: 50%;
+} 
 li {
     height: 30px;
     display: inline-flex;
