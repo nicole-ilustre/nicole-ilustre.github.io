@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Javascript Basics</title>
+        <link href="style.css" rel="stylesheet" type="text/css">
+    </head>
+    <body>
+        <header>
+            <h1>Learn more about Javascript Basics</h1>
+            <nav id = "long-nav">
+                <li class="nav long-nav"><a href="../index.html">Home</a></li>
+                <li class="nav long-nav"><a href="#html-css">HMTL & CSS</a></li>
+                <li class="nav long-nav"><a href="#controlflow-loops">Control Flow & Loops</a></li>
+                <li class="nav long-nav"><a href="#dom">DOM</a></li>
+                <li class="nav long-nav"><a href="#arrays-objects">Arrays & Objects</a></li>
+                <li class="nav long-nav" id="nav-left"><a href="#functions">Functions</a></li>
+        </header>
+        <div>
+            <h2 id="html-css">HTML and CSS</h2>
+            <p>HTML and CSS are 2 of the fundamental parts of a webpage. One isn't without the other. HTML is the components of the webpage. Imagine your house, the rooms, the furniture, the appliances are like the elements in HTML. You can also group them together in HTML, like how you put the oven, the fridge and all kitchen appliances in the kitchen. CSS however is how you style your house. Where you place your bed in the bedroom (is it facing the window, is it in the middle), what color your walls and doors are, how far you want your TV from the couch are all the same as styling your HTML elements in CSS.
+            </p>
+        </div>
+        <div>
+            <h2 id="controlflow-loops">Control Flow and Loops</h2>
+            <p>Control flow is the order that functions or scripts are executed. The default order is from top to bottom. The computer will read your code from top to bottom and will execute in the same order. You may compare this to your daily schedule. If you put breakfast at the top of your list and then work right after and then gym after that, you will most likely be executing these tasks in that chronological order. You can however change them up, you can write down “go to gym” first before everything else. This is also possible in Javascript. 
+<break>
+<break>
+                Loops are actions that will execute over and over again under certain conditions. As long as the condition is met, the action will be repeated until said condition is no longer true. It’s the same as trying to clear your inbox. Below are the steps we usually take in order to clear our inbox:
+                <ol id = "ordered-list">
+                    <li>Check if there is mail.</li>
+                    <li>If there is mail, open one, read, process and discard.</li>
+                    <li>Go to step 1 and repeat.</li>
+                    <li>If step one is false (mailbox is empty), task is done. Loop finishes.  </li>
+            </ol>              
+            </p>
+        </div>
+        <div>
+            <h2 id="dom">DOM</h2>
+            <p>DOM is the structure of your webpage. It is a tree-like representation of your HTML. You can access your webpage's DOM if you right-click and click on 'Inspect'. A window will pop up and you will your HTML, CSS and Javascript here. You can edit your code in the DOM to see realtime changes in your webpage. Although, these changes are not permanent and are not saved anywhere. You can however set it up so the changes you make in the DOM directly saves in to your local workspace. One benefit of this is when wanting to make a minor change in your code and wanting to test it out without having to go through all the trouble of editing it locally and adding it to your global repository.
+            </p>
+        </div>
+        <div>
+                <h2 id="arrays-objects">Arrays and Objects</h2>
+                <p>Arrays and objects are both variables that can store multiple values. Arrays store a list of values whereas objects store properties which have a key and a corresponding value. 
+                </p>
+                <table id="arrays-objects-table">
+                    <th colspan="2">How to access data in:</th>
+                        <tr>
+                            <td>Array</td>
+                            <td>Object</td>
+                        </tr>
+                        <tr>
+                            <td>Var myArray = [“a”, “b”, “c”, “d”]</td>
+                            <td>Var myObj = {
+                                Key1 = “value1”,
+                                Key2 = “value2”
+                                Key3 = “value3”
+                                }</td>
+                        </tr>
+                        <tr>
+                            <td>arrayname[index]
+                                I.e. myArray[0] will give you “a”
+                                </td>
+                            <td>Objectname.objectkey
+                                I.e.
+                                myObj.key1 will give you “value1”
+                                </td>
+                        </tr>
+                        <tr>
+                            <td>Arrays count their data from zero</td>
+                            <td>Objects access their data through keys</td>
+                        </tr>
+                </table>
+        </div>
+        <div>
+            <h2 id="functions">Functions</h2>
+            <p>Functions are sets of statements that perform tasks that are assigned to them. You can assign multiple tasks to one function so when you call that specific function, all the tasks under it will be executed. This is useful for when you need multiple things done over and over again. With a function, you do not need to write all the code over and over again.
+            </p>
+        </div>
+    </body>
+    </html>

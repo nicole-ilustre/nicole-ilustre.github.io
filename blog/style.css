@@ -16,6 +16,7 @@ nav {
     padding-bottom: 30px;
 }
 
+
 .nav {
     text-transform: uppercase;
     display: inline;
@@ -25,6 +26,12 @@ nav {
     border-left: 3px solid #7E7E7E;
 
 }
+.long-nav {
+    padding-left: 20px;
+    padding-right: 20px;
+
+} 
+
 #nav-left {
     border-right: 3px solid #7E7E7E;
 }
@@ -56,7 +63,7 @@ h3 {
     width: 30%;
     margin: 50px;
 }
-#margin-padding-table, #eq-vs-iq  {
+#margin-padding-table, #eq-vs-iq, #arrays-objects-table {
     width: 50%;
     margin-left: auto;
     margin-right: auto;
@@ -104,12 +111,18 @@ th {
     text-align: left;
 }
 
-ul {
+ul, ol {
     font-family: 'Open Sans', sans-serif;
     margin-left: auto;
     margin-right: auto;
     width: 30%;
     list-style-type: circle;
+}
+
+#ordered-list {
+    list-style-type: decimal;
+    text-align: left;
+    width: 50%;
 }
 
 footer {
