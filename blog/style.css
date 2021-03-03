@@ -3,7 +3,8 @@
 body {
     text-align: center;
     margin: 5% 10% 10% 10%;
-    color: #7E7E7E;
+    color: #d1cfcf;
+    background-color: rgb(20, 20, 20);
 
 }
 
@@ -12,7 +13,7 @@ h1 {
     font-family: 'Unica One', cursive;
 }
 nav {
-    border-bottom: 1px solid #7E7E7E;
+    border-bottom: 1px solid #d1cfcf;
     padding-bottom: 30px;
 }
 
@@ -23,13 +24,12 @@ nav {
     font-family: 'Open Sans', sans-serif;
     padding-left: 50px;
     padding-right: 50px;
-    border-left: 3px solid #7E7E7E;
+    border-left: 3px solid #d1cfcf;
 
 }
 
-
 #nav-left {
-    border-right: 3px solid #7E7E7E;
+    border-right: 3px solid #d1cfcf;
 }
 h2 {
     font-family: 'Unica One', cursive;
@@ -63,14 +63,14 @@ h3 {
     width: 50%;
     margin-left: auto;
     margin-right: auto;
-    border: 2px solid #7E7E7E;
+    border: 2px solid #d1cfcf;
     border-collapse: collapse;
 }
 #strength-limitations-table {
     width: 100%;
     margin-left: auto;
     margin-right: auto;
-    border: 2px solid #7E7E7E;
+    border: 2px solid #d1cfcf;
     border-collapse: collapse;
 }
 #eq-effects {
@@ -93,7 +93,7 @@ td {
     text-align: center;
     vertical-align: top;
     padding: 5px;
-    border: 2px solid #7E7E7E;
+    border: 2px solid #d1cfcf;
 }
 
 th {
@@ -118,7 +118,7 @@ ul {
 
 
 footer {
-    border-top: 1px solid #7E7E7E;
+    border-top: 1px solid #d1cfcf;
     font-family: 'Unica One', cursive;
     padding: 10px;
 }
@@ -136,7 +136,7 @@ a:hover {
 }
 
 div {
-    border-bottom: 1px solid #7E7E7E;
+    border-bottom: 1px solid #d1cfcf;
     padding-bottom: 20px;
     padding-top: 20px;
 }
