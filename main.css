@@ -1,26 +1,27 @@
 @import url('https://fonts.googleapis.com/css2?family=Unica+One&display=swap');
 
 body {
+    background-color: rgb(20, 20, 20);
     text-align: center;
     margin: 5% 10% 10% 10%;
 }
 h1 {
     font-size: 50px;
     font-family: 'Unica One', cursive;
-    color: #7E7E7E;
+    color: #d1cfcf;
     text-align: center;
 }
 h2 {
     font-family: 'Unica One', cursive;
-    color: #7E7E7E;
+    color: #d1cfcf;
     text-align: center;
-    border-top: 1px solid #7E7E7E;
+    border-top: 1px solid #d1cfcf;
     padding-top: 20px;
 }
 
 h3 {
     font-family: 'Unica One', cursive;
-    color: #7E7E7E;
+    color:#d1cfcf;
     text-align: center;
     padding-top: 20px;
 }
@@ -29,8 +30,8 @@ h3 {
 button {
     font-family: 'Unica One', cursive;
     padding: 5px;
-    background-color: #7E7E7E;
-    color: white;
+    background-color: #d1cfcf;
+    color: rgb(20, 20, 20);
 
 }
 .nav-bar-sprint {
@@ -67,13 +68,17 @@ li {
     display: inline-flex;
     list-style-type: none;
     padding-top: 10px;
-    border-left: 3px solid #7E7E7E;
+    border-left: 3px solid #d1cfcf;
+    color: #d1cfcf;
+    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
 
 }
 #li-right {
-    border-right: 3px solid #7E7E7E;
+    border-right: 3px solid #d1cfcf;
 }
 p {
+    color:#d1cfcf;
     text-align: center;
     font-family: 'Open Sans', sans-serif;
 }
@@ -108,6 +113,21 @@ p {
     width: 30%;
 }
 
+td {
+    font-family: 'Open Sans', sans-serif;
+    width: 30%;
+    text-align: center;
+    vertical-align: top;
+    padding: 5px;
+    color: #d1cfcf;
+  
+}
+
+table {
+    border-top: 1px solid #d1cfcf;
+    margin-top: 20px;
+}
+
 @media (min-width: 1000px) {
     h1 {
         display: inline;
@@ -133,11 +153,11 @@ li {
     display: inline-flex;
     list-style-type: none;
     padding-top: 10px;
-    border-left: 3px solid #7E7E7E;
+    border-left: 3px solid #d1cfcf;
 
 }
 #li-left, #li-right {
-    border-right: 3px solid #7E7E7E;
+    border-right: 3px solid #d1cfcf;
 }
 .blog-post {
     display: block;
@@ -164,7 +184,7 @@ li {
     padding-top: 10px;
     padding-left: 30px;
     padding-right: 30px;
-    border-left: 3px solid #7E7E7E;
+    border-left: 3px solid #d1cfcf;
 
 }
 
@@ -215,16 +235,7 @@ a {
       padding-right: 10px;
   }
     #li-sprint1-right {
-  border-right: 3px solid #7E7E7E;
+  border-right: 3px solid #d1cfcf;
 
 }
 
-/* .blog-post {
-    display: inline-block;
-    width: 40%;
-    text-align: center;
-    vertical-align: top;
-    padding-top: 20px;
-    margin: 10px;
-
-} */
